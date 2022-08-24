@@ -1,0 +1,10 @@
+#!/bin/bash -e
+
+/usr/libexec/s2i/assemble
+
+echo "Assemble customization start"
+
+touch /tmp/customa
+
+
+echo "Assemble customization end"
